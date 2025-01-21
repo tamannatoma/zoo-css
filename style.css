@@ -66,6 +66,9 @@ button {
   border: 2px solid black;
   color: #fff;
 }
+.button:hover {
+  background-color: whitesmoke;
+}
 
 footer {
   background-color: #211a1d;
@@ -113,6 +116,7 @@ footer {
  
   border: 5px solid #e40c54;
   vertical-align: top;
+
 }
 .image-container .img2 {
 
