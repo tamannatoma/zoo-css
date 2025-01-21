@@ -91,7 +91,6 @@ footer {
   position: fixed;
   top: 20px;
   right: 20px;
-
   display: flex;
   justify-content: center;
   align-content: center;
@@ -106,11 +105,11 @@ footer {
   text-align: center;
   font-size: 125%;
 }
-/*.image-container img {
+.image-container img {
   vertical-align: top;
  
  
-}*/
+}
 
 .image-container .img1 {
  
@@ -129,10 +128,6 @@ footer {
   vertical-align: top;
 }
 
-.image-container img:first-of-type {
-  vertical-align: bottom;
-
-}
 
 
 
@@ -226,4 +221,56 @@ footer {
   display: inline-block;
 
 
+}
+.myfav {
+  height: 500px;
+  width: 100%;
+
+  padding: 0px;
+
+}
+.bottomsection1 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bird {
+  height:200px;
+  width: 20%;
+  border: 2px solid rgb(75, 53, 53);
+  border-radius: 5px;
+}
+.bottomsection2 {
+  height: 150px;
+  width: 50%;
+  border: 2px solid black;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+
+
+
+.bottomsection2 h2{
+  color: black; 
+  text-transform: capitalize;
+  padding: 0px;
+  font-size: 20px;
+  
+   
+}
+.bottomsection3 {
+
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  
 }
